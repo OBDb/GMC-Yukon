@@ -1,0 +1,25 @@
+generations:
+  - name: "First Generation"
+    start_year: 1992
+    end_year: 1999
+    description: "The original GMC Yukon was introduced as a two-door SUV based on the Sierra pickup truck platform, essentially replacing the Jimmy name for full-size models. A four-door version was added in 1995, significantly expanding its appeal as a family vehicle. Built on GM's GMT400 platform with body-on-frame construction, it offered genuine off-road capability and substantial towing capacity. Engine options centered around V8 powerplants, including the 5.7L small-block. The interior was relatively utilitarian by modern standards but offered good passenger and cargo space. This generation established the Yukon as GMC's premium full-size SUV, positioned as a more upscale alternative to the Chevrolet Tahoe."
+
+  - name: "Second Generation (GMT800)"
+    start_year: 2000
+    end_year: 2006
+    description: "The second-generation Yukon featured more refined styling, improved engineering, and expanded feature content. Built on GM's GMT800 platform, it was available exclusively as a four-door with either rear-wheel or four-wheel drive. Engine options included 4.8L, 5.3L, and 6.0L Vortec V8s, all offering improved power and efficiency over their predecessors. The interior saw significant improvements in design, materials, and comfort features, particularly in the new Denali luxury trim. The Yukon Denali was initially a distinct model before becoming a trim level, featuring a unique grille, upgraded interior, and the most powerful engine options. This generation further established the Yukon's position as a versatile, capable vehicle that could serve as both a work-ready SUV and a comfortable family hauler."
+
+  - name: "Third Generation (GMT900)"
+    start_year: 2007
+    end_year: 2014
+    description: "The third-generation Yukon featured more aerodynamic styling and significant improvements in refinement, technology, and efficiency. Built on GM's GMT900 platform, it offered reduced weight and improved structural rigidity. Engine options evolved to include more efficient 5.3L and 6.2L V8s with Active Fuel Management cylinder deactivation technology. The interior was completely redesigned with better materials, design, and feature content, including navigation systems and rear-seat entertainment options. Safety features expanded to include stability control, side curtain airbags, and improved crash structures. The Denali trim became increasingly important in the lineup, offering distinctive styling and luxury features approaching those of premium brands. This generation maintained the Yukon's core capabilities while improving refinement and efficiency."
+
+  - name: "Fourth Generation (K2XX)"
+    start_year: 2015
+    end_year: 2020
+    description: "The fourth-generation Yukon featured more upright styling with distinctive LED lighting elements and a prominent grille. Built on GM's K2XX platform, it offered improved capabilities and refinement. Engine options included 5.3L and 6.2L EcoTec3 V8s featuring direct injection, variable valve timing, and cylinder deactivation for improved efficiency. The interior saw significant upgrades in design, materials, and technology, with available features including an 8-inch touchscreen infotainment system, head-up display, and multiple USB ports. The Denali trim expanded its premium offerings with exclusive features and design elements, accounting for a significant portion of Yukon sales. This generation enhanced the Yukon's position as a versatile, capable, and increasingly luxurious full-size SUV."
+
+  - name: "Fifth Generation (T1XX)"
+    start_year: 2021
+    end_year: null
+    description: "The current Yukon represents the most significant advancement in the model's history, featuring sophisticated styling and substantial mechanical improvements. Built on GM's T1XX platform, the most notable change is the adoption of an independent rear suspension, dramatically improving interior space (especially third-row comfort) and ride quality. Engine options include 5.3L and 6.2L V8s, plus a 3.0L Duramax diesel inline-six for the first time. The interior is completely redesigned with a push-button electronic shifter, available 10.2-inch touchscreen, digital instrument options, and significantly improved materials. The Denali trim received even greater differentiation with a unique interior design featuring genuine wood and hand-finished details. New to this generation is the AT4 trim with off-road focus, featuring standard four-wheel drive, all-terrain tires, skid plates, and red recovery hooks. Technology has advanced to include available features like a power-sliding center console, rear pedestrian alert, and Super Cruise hands-free driving assistance. This generation combines the traditional capability expected of a Yukon with unprecedented levels of refinement, technology, and luxury."
