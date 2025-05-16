@@ -47,6 +47,7 @@ supported_commands_by_ecu:
 unsupported_commands_by_ecu:
   7E0:
   - 7E0.7E8.012F
+  - 7E0.7E8.0131
   - 7E0.7E8.22248E
   - 7E0.7E8.22248F
   - 7E0.7E8.222490
@@ -54,6 +55,7 @@ unsupported_commands_by_ecu:
   - 7E0.7E8.22C901
   - 7E0.7E8.22C902
   7E4:
+  - 7E4.7E8.0100
   - 7E4.7EC.22434F
   - 7E4.7EC.224368
   - 7E4.7EC.224369
@@ -65,6 +67,7 @@ unsupported_commands_by_ecu:
   - 7E4.7EC.224531
   - 7E4.7EC.228334
   7E7:
+  - 7E7.7E8.0100
   - 7E7.7EF.224181
   - 7E7.7EF.224182
   - 7E7.7EF.224183
@@ -162,8 +165,8 @@ unsupported_commands_by_ecu:
   - 7E7.7EF.22423F
   - 7E7.7EF.224240
   DA1D:
-  - DA1D.2233E5
+  - DA1D.2233E5:GMC_HVBAT_V
   DACB:
-  - DACB.2227C6
-  - DACB.222AF5
-  - DACB.222B43
+  - DACB.2227C6:GMC_SOC_HD
+  - DACB.222AF5:GMC_HVBAT_C_V_AVG,GMC_HVBAT_C_V_MAX,GMC_HVBAT_C_V_MIN
+  - DACB.222B43:GMC_SOC
