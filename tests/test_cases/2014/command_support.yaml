@@ -45,6 +45,11 @@ supported_commands_by_ecu:
   - 014C:TAC_PCT
   - 0152:ALCH_PCT
 unsupported_commands_by_ecu:
+  760:
+  - 760.760.224051
+  - 760.760.224052
+  - 760.760.224053
+  - 760.760.224054
   7E0:
   - 7E0.7E8.012F
   - 7E0.7E8.0131
