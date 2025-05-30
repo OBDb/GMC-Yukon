@@ -1,0 +1,5 @@
+command_id: DA11.224DC0|fc=1,c=14
+test_cases:
+- response: 18DAF11104624DC0CD555555
+  expected_values:
+    GMC_EOL: 80.39216

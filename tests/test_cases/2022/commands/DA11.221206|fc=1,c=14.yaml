@@ -1,0 +1,5 @@
+command_id: DA11.221206|fc=1,c=14
+test_cases:
+- response: 18DAF1110462120600555555
+  expected_values:
+    GMC_MIS_1: 0
