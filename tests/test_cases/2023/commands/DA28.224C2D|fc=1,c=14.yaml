@@ -1,0 +1,14 @@
+command_id: DA28.224C2D|fc=1,c=14
+test_cases:
+- expected_values:
+    GMC_STEER_ANGLE: 0.11
+  response: 142AF12805624C2D0005
+- expected_values:
+    GMC_STEER_ANGLE: -11.176
+  response: 142AF12805624C2DFE04
+- expected_values:
+    GMC_STEER_ANGLE: -5.808
+  response: 142AF12805624C2DFEF8
+- expected_values:
+    GMC_STEER_ANGLE: -5.5
+  response: 142AF12805624C2DFF06

@@ -1,0 +1,5 @@
+command_id: DA11.22005E|fc=1,c=14
+test_cases:
+- expected_values:
+    GMC_FUEL_RATE: 3
+  response: 18DAF1110562005E003C5555
