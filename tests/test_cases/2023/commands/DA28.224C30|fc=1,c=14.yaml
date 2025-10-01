@@ -1,0 +1,11 @@
+command_id: DA28.224C30|fc=1,c=14
+test_cases:
+- expected_values:
+    GMC_LNG_G: 0
+  response: 142AF12805624C300000
+- expected_values:
+    GMC_LNG_G: -0.25485
+  response: 142AF12805624C30FF60
+- expected_values:
+    GMC_LNG_G: -0.00637
+  response: 142AF12805624C30FFFC

@@ -1,0 +1,11 @@
+command_id: DA11.221205|fc=1,c=14
+test_cases:
+- expected_values:
+    GMC_MIS_2: 0
+  response: 142AF1110462120500
+- expected_values:
+    GMC_MIS_2: 0.39216
+  response: 142AF1110462120501
+- expected_values:
+    GMC_MIS_2: 1.17647
+  response: 142AF1110462120503
