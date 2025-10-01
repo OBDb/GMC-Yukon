@@ -1,0 +1,11 @@
+command_id: DA11.222345|fc=1,c=14
+test_cases:
+- expected_values:
+    GMC_EOP_ACT: 0
+  response: 142AF1110462234500
+- expected_values:
+    GMC_EOP_ACT: 536
+  response: 142AF1110462234586
+- expected_values:
+    GMC_EOP_ACT: 0
+  response: 18DAF1110462234500

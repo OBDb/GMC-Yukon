@@ -1,0 +1,8 @@
+command_id: DA28.224A7C|fc=1,c=14
+test_cases:
+- expected_values:
+    GMC_BP: 0
+  response: 142AF12804624A7C0A
+- expected_values:
+    GMC_BP: 1700
+  response: 142AF12804624A7C1B
