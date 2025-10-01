@@ -1,0 +1,5 @@
+command_id: DA11.2220E3|fc=1,c=14
+test_cases:
+- expected_values:
+    GMC_BP_ACT: 0
+  response: 18DAF111056220E300005555

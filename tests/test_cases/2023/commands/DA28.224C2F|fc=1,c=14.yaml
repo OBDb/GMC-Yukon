@@ -1,0 +1,11 @@
+command_id: DA28.224C2F|fc=1,c=14
+test_cases:
+- expected_values:
+    GMC_LAT_G: 0
+  response: 142AF12805624C2F0000
+- expected_values:
+    GMC_LAT_G: -0.23573
+  response: 142AF12805624C2FFF6C
+- expected_values:
+    GMC_LAT_G: -0.00637
+  response: 142AF12805624C2FFFFC
