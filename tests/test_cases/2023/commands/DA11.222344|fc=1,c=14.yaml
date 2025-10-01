@@ -1,0 +1,11 @@
+command_id: DA11.222344|fc=1,c=14
+test_cases:
+- expected_values:
+    GMC_EO_AP: 96
+  response: 142AF1110462234418
+- expected_values:
+    GMC_EO_AP: 604
+  response: 142AF1110462234497
+- expected_values:
+    GMC_EO_AP: 96
+  response: 18DAF1110462234418

@@ -1,0 +1,32 @@
+command_id: DA18.221B30|fc=1,c=14
+test_cases:
+- expected_values:
+    GMC_GEAR: PARK
+  response: 142AF11804621B3002
+- expected_values:
+    GMC_GEAR: REVERSE
+  response: 142AF11804621B3003
+- expected_values:
+    GMC_GEAR: D1
+  response: 142AF11804621B3004
+- expected_values:
+    GMC_GEAR: D2
+  response: 142AF11804621B3005
+- expected_values:
+    GMC_GEAR: D3
+  response: 142AF11804621B3006
+- expected_values:
+    GMC_GEAR: D4
+  response: 142AF11804621B3007
+- expected_values:
+    GMC_GEAR: D5
+  response: 142AF11804621B3008
+- expected_values:
+    GMC_GEAR: D6
+  response: 142AF11804621B3009
+- expected_values:
+    GMC_GEAR: D7
+  response: 142AF11804621B300A
+- expected_values:
+    GMC_GEAR: D8
+  response: 142AF11804621B300B
