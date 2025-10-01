@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.22000D
+test_cases:
+- expected_values:
+    GMC_VSS: 0
+  response: 7E80462000D00
+- expected_values:
+    GMC_VSS: 143
+  response: 7E80462000D8F
