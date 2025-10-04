@@ -1,0 +1,11 @@
+command_id: DA18.221B30|fc=1,c=14
+test_cases:
+- expected_values:
+    GMC_GEAR: PARK
+  response: 142AF11804621B3002
+- expected_values:
+    GMC_GEAR: D8
+  response: 142AF11804621B300B
+- expected_values:
+    GMC_GEAR: PARK
+  response: 18DAF11804621B3002
