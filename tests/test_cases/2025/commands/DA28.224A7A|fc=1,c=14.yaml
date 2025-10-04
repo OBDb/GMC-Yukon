@@ -1,0 +1,14 @@
+command_id: DA28.224A7A|fc=1,c=14
+test_cases:
+- expected_values:
+    GMC_TIRE_FL_VSS: 0
+    GMC_TIRE_FR_VSS: 0
+    GMC_TIRE_RL_VSS: 0
+    GMC_TIRE_RR_VSS: 0
+  response: 142AF12807624A7A00000000
+- expected_values:
+    GMC_TIRE_FL_VSS: 100
+    GMC_TIRE_FR_VSS: 100
+    GMC_TIRE_RL_VSS: 100
+    GMC_TIRE_RR_VSS: 100
+  response: 142AF12807624A7A64646464

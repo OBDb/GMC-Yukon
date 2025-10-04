@@ -1,0 +1,11 @@
+command_id: 7E0.2211A1
+test_cases:
+- expected_values:
+    GMC_RUNTM: 0
+  response: 7E8056211A10000
+- expected_values:
+    GMC_RUNTM: 253
+  response: 7E8056211A100FD
+- expected_values:
+    GMC_RUNTM: 3925
+  response: 7E8056211A10F55

@@ -1,0 +1,7 @@
+command_id: DA1D.2233E5
+test_cases:
+- expected_values:
+    GMC_HVBAT_V: 12.1
+  response: |-
+    18DAF111046233E584555555
+    18DAF118046233E579555555
