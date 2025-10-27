@@ -4,5 +4,5 @@ test_cases:
     GMC_EOP_ACT: 0
   response: 142AF1110462234500
 - expected_values:
-    GMC_EOP_ACT: 428
-  response: 142AF111046223456B
+    GMC_EOP_ACT: 444
+  response: 142AF111046223456F
