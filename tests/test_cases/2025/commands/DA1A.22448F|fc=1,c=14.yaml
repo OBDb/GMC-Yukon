@@ -4,8 +4,11 @@ test_cases:
     GMC_ODO: 3735.79688
   response: 142AF11A0762448F0003A5F3
 - expected_values:
-    GMC_ODO: 3735.85938
-  response: 142AF11A0762448F0003A5F7
-- expected_values:
     GMC_ODO: 3780
   response: 142AF11A0762448F0003B100
+- expected_values:
+    GMC_ODO: 8786.67188
+  response: 142AF11A0762448F000894AB
+- expected_values:
+    GMC_ODO: 1000000
+  response: 142AF11A0762448F0FFFFFFF
