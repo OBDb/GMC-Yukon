@@ -4,8 +4,8 @@ test_cases:
     GMC_LNG_G: 0
   response: 142AF12805624C300000
 - expected_values:
-    GMC_LNG_G: -0.19751
-  response: 142AF12805624C30FF84
+    GMC_LNG_G: -0.20388
+  response: 142AF12805624C30FF80
 - expected_values:
     GMC_LNG_G: -0.00637
   response: 142AF12805624C30FFFC
