@@ -1,11 +1,6 @@
-model_year: 2014
+model_year: 2015
 supported_commands_by_ecu:
   "7E0":
-  - 7E0.010D:VSS
-  - 7E0.0111:TP
-  - 7E0.012F:FLI
-  - 7E0.0131:CLR_DIST
-  - 7E0.0146:AAT
   - 7E0.2211A1:GMC_RUNTM
   - 7E0.7E8.22000D:GMC_VSS
 unsupported_commands_by_ecu:
@@ -150,7 +145,6 @@ unsupported_commands_by_ecu:
   - DA18.221940|fc=1,c=14:GMC_TFT
   - DA18.221B30|fc=1,c=14:GMC_GEAR
   "DA1A":
-  - DA1A.22448F
   - DA1A.22448F|fc=1,c=14:GMC_ODO
   "DA1D":
   - DA1D.2233E5:GMC_HVBAT_V

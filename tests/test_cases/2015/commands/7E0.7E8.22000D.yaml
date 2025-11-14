@@ -1,0 +1,28 @@
+command_id: 7E0.7E8.22000D
+test_cases:
+- expected_values:
+    GMC_VSS: 0
+  response: 7E80462000D00
+- expected_values:
+    GMC_VSS: 0
+  response: |-
+    7E80462000D00
+    7EA0462000D00
+- expected_values:
+    GMC_VSS: 31
+  response: |-
+    7E80462000D1F
+    7EA0462000D1F
+- expected_values:
+    GMC_VSS: 98
+  response: |-
+    7E80462000D62
+    7EA0462000D63
+- expected_values:
+    GMC_VSS: 103
+  response: 7E80462000D67
+- expected_values:
+    GMC_VSS: 0
+  response: |-
+    7EA0462000D00
+    7E80462000D00
