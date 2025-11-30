@@ -19,8 +19,8 @@ test_cases:
     7E80462000D62
     7EA0462000D63
 - expected_values:
-    GMC_VSS: 103
-  response: 7E80462000D67
+    GMC_VSS: 109
+  response: 7E80462000D6D
 - expected_values:
     GMC_VSS: 0
   response: |-
