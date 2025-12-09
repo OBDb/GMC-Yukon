@@ -4,8 +4,8 @@ test_cases:
     GMC_RUNTM: 0
   response: 7E8056211A10000
 - expected_values:
-    GMC_RUNTM: 2303
-  response: 7E8056211A108FF
+    GMC_RUNTM: 255
+  response: 7E8056211A100FF
 - expected_values:
     GMC_RUNTM: 17921
   response: 7E8056211A14601
