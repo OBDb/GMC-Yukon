@@ -1,7 +1,10 @@
+references:
+  - "https://en.wikipedia.org/wiki/Chevrolet_Tahoe"
+
 generations:
   - name: "First Generation"
     start_year: 1992
-    end_year: 1999
+    end_year: 2000
     description: "The original GMC Yukon was introduced as a two-door SUV based on the Sierra pickup truck platform, essentially replacing the Jimmy name for full-size models. A four-door version was added in 1995, significantly expanding its appeal as a family vehicle. Built on GM's GMT400 platform with body-on-frame construction, it offered genuine off-road capability and substantial towing capacity. Engine options centered around V8 powerplants, including the 5.7L small-block. The interior was relatively utilitarian by modern standards but offered good passenger and cargo space. This generation established the Yukon as GMC's premium full-size SUV, positioned as a more upscale alternative to the Chevrolet Tahoe."
 
   - name: "Second Generation (GMT800)"
