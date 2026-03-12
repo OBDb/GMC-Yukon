@@ -9,3 +9,6 @@ test_cases:
 - expected_values:
     GMC_EOL: 69.01961
   response: 142AF11104624DC0B0
+- expected_values:
+    GMC_EOL: 76.07843
+  response: 142AF11104624DC0C2
