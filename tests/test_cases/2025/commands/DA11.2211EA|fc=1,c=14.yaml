@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     GMC_MIS_5: 0.39216
   response: 142AF111046211EA01
+- expected_values:
+    GMC_MIS_5: 0.78431
+  response: 142AF111046211EA02
