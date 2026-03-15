@@ -5,6 +5,6 @@ test_cases:
     GMC_FLI: 0
   response: 142AF1110462002F00
 - expected_values:
-    GMC_AUX_V: 25
-    GMC_FLI: 98.03922
-  response: 142AF1110462002FFA
+    GMC_AUX_V: 25.5
+    GMC_FLI: 100
+  response: 142AF1110462002FFF
