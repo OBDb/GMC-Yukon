@@ -1,0 +1,22 @@
+command_id: DA11.22002F|fc=1,c=14
+test_cases:
+- expected_values:
+    GMC_AUX_V: 13.2
+    GMC_FLI: 51.76471
+  response: 142AF1110462002F84
+- expected_values:
+    GMC_AUX_V: 14.3
+    GMC_FLI: 56.07843
+  response: 142AF1110462002F8F
+- expected_values:
+    GMC_AUX_V: 15.2
+    GMC_FLI: 59.60784
+  response: 142AF1110462002F98
+- expected_values:
+    GMC_AUX_V: 15.3
+    GMC_FLI: 60
+  response: 142AF1110462002F99
+- expected_values:
+    GMC_AUX_V: 16.1
+    GMC_FLI: 63.13725
+  response: 142AF1110462002FA1
