@@ -67,7 +67,7 @@
   "signals": [
     {"id": "YUKON_MISFIRES_C1_CUR", "path": "Engine", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Misfires, current, cylinder 1"}
   ]},
-{ "hdr": "DA11", "rax": "2AF111", "pri": "14", "fcm1": true, "cmd": {"22": "1207"}, "freq": 1, "dbgfilter": { "to": 2021, "from": 2024 },
+{ "hdr": "DA11", "rax": "2AF111", "pri": "14", "fcm1": true, "cmd": {"22": "1207"}, "freq": 1, "dbgfilter": { "to": 2014, "years": [2016, 2017, 2018, 2019, 2020, 2021], "from": 2024 },
   "signals": [
     {"id": "YUKON_MISFIRES_C3_CUR", "path": "Engine", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Misfires, current, cylinder 3"}
   ]},
