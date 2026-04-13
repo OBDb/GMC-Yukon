@@ -1,4 +1,214 @@
 { "commands": [
-
+{ "hdr": "7E0", "cmd": {"22": "11A1"}, "freq": 1, "filter": { "to": 2021 }, "dbgfilter": { "to": 2012, "from": 2017 },
+  "signals": [
+    {"id": "YUKON_RUNTM", "path": "Clocks", "fmt": { "len": 16, "max": 65535, "unit": "seconds" }, "name": "Time since engine start"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "000D"}, "filter": { "to": 2021 }, "freq": 0.25, "dbgfilter": { "to": 2012, "from": 2017 },
+  "signals": [
+    {"id": "YUKON_VSS", "path": "Movement", "fmt": { "len": 8, "max": 255, "nullmax": 255, "unit": "kilometersPerHour" }, "name": "Vehicle speed", "suggestedMetric": "speed"}
+  ]},
+{ "hdr": "DA11", "rax": "2AF111", "pri": "14", "fcm1": true, "dbg": true, "cmd": {"22": "005C"}, "freq": 1,
+  "signals": [
+    {"id": "YUKON_EOT", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Engine oil temperature", "suggestedMetric": "engineOilTemperature"}
+  ]},
+{ "hdr": "DA11", "rax": "2AF111", "pri": "14", "fcm1": true, "dbg": true, "cmd": {"22": "0078"}, "freq": 1,
+  "signals": [
+    {"id": "YUKON_DPF_EGT_4", "path": "Engine", "fmt": {"bix": 56, "len": 16, "max": 6513.5, "min": -40, "div": 10, "add": -40, "unit": "celsius" }, "name": "Diesel particulate filter, exhaust gas temperature 4"}
+  ]},
+{ "hdr": "DA11", "rax": "2AF111", "pri": "14", "fcm1": true, "dbg": true, "cmd": {"22": "009D"}, "freq": 1,
+  "signals": [
+    {"id": "YUKON_TOTAL_FUEL_CONSUMPTION_RATE", "path": "Fuel", "fmt": { "len": 16, "max": 1310.7, "mul": 200, "div": 10000, "unit": "gramsPerSecond" }, "name": "Total fuel consumption rate"}
+  ]},
+{ "hdr": "DA11", "rax": "2AF111", "pri": "14", "fcm1": true, "dbg": true, "cmd": {"22": "1194"}, "freq": 1,
+  "signals": [
+    {"id": "YUKON_FUEL_INJECTION_C2", "path": "Fuel", "fmt": { "len": 16, "max": 1000, "mul": 1000, "div": 65535, "unit": "milliseconds" }, "name": "Fuel injection, cylinder 2"}
+  ]},
+{ "hdr": "DA11", "rax": "2AF111", "pri": "14", "fcm1": true, "dbg": true, "cmd": {"22": "1195"}, "freq": 1,
+  "signals": [
+    {"id": "YUKON_FUEL_INJECTION_C3", "path": "Fuel", "fmt": { "len": 16, "max": 1000, "mul": 1000, "div": 65535, "unit": "milliseconds" }, "name": "Fuel injection, cylinder 3"}
+  ]},
+{ "hdr": "DA11", "rax": "2AF111", "pri": "14", "fcm1": true, "dbg": true, "cmd": {"22": "1196"}, "freq": 1,
+  "signals": [
+    {"id": "YUKON_FUEL_INJECTION_C4", "path": "Fuel", "fmt": { "len": 16, "max": 1000, "mul": 1000, "div": 65535, "unit": "milliseconds" }, "name": "Fuel injection, cylinder 4"}
+  ]},
+{ "hdr": "DA11", "rax": "2AF111", "pri": "14", "fcm1": true, "dbg": true, "cmd": {"22": "1197"}, "freq": 1,
+  "signals": [
+    {"id": "YUKON_FUEL_INJECTION_C5", "path": "Fuel", "fmt": { "len": 16, "max": 1000, "mul": 1000, "div": 65535, "unit": "milliseconds" }, "name": "Fuel injection, cylinder 5"}
+  ]},
+{ "hdr": "DA11", "rax": "2AF111", "pri": "14", "fcm1": true, "dbg": true, "cmd": {"22": "1198"}, "freq": 1,
+  "signals": [
+    {"id": "YUKON_FUEL_INJECTION_C6", "path": "Fuel", "fmt": { "len": 16, "max": 1000, "mul": 1000, "div": 65535, "unit": "milliseconds" }, "name": "Fuel injection, cylinder 6"}
+  ]},
+{ "hdr": "DA11", "rax": "2AF111", "pri": "14", "fcm1": true, "dbg": true, "cmd": {"22": "1199"}, "freq": 1,
+  "signals": [
+    {"id": "YUKON_FUEL_INJECTION_C7", "path": "Fuel", "fmt": { "len": 16, "max": 1000, "mul": 1000, "div": 65535, "unit": "milliseconds" }, "name": "Fuel injection, cylinder 7"}
+  ]},
+{ "hdr": "DA11", "rax": "2AF111", "pri": "14", "fcm1": true, "cmd": {"22": "11EA"}, "freq": 1, "dbgfilter": { "to": 2021, "from": 2024 },
+  "signals": [
+    {"id": "YUKON_MISFIRES_C5_CUR", "path": "Engine", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Misfires, current, cylinder 5"}
+  ]},
+{ "hdr": "DA11", "rax": "2AF111", "pri": "14", "fcm1": true, "cmd": {"22": "11EB"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
+  "signals": [
+    {"id": "YUKON_MISFIRES_C6_CUR", "path": "Engine", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Misfires, current, cylinder 6"}
+  ]},
+{ "hdr": "DA11", "rax": "2AF111", "pri": "14", "fcm1": true, "dbg": true, "cmd": {"22": "11EC"}, "freq": 1,
+  "signals": [
+    {"id": "YUKON_MISFIRES_C7_CUR", "path": "Engine", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Misfires, current, cylinder 7"}
+  ]},
+{ "hdr": "DA11", "rax": "2AF111", "pri": "14", "fcm1": true, "dbg": true, "cmd": {"22": "11ED"}, "freq": 1,
+  "signals": [
+    {"id": "YUKON_MISFIRES_C8_CUR", "path": "Engine", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Misfires, current, cylinder 8"}
+  ]},
+{ "hdr": "DA11", "rax": "2AF111", "pri": "14", "fcm1": true, "cmd": {"22": "1205"}, "freq": 1, "dbgfilter": { "to": 2021, "from": 2024 },
+  "signals": [
+    {"id": "YUKON_MISFIRES_C2_CUR", "path": "Engine", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Misfires, current, cylinder 2"}
+  ]},
+{ "hdr": "DA11", "rax": "2AF111", "pri": "14", "fcm1": true, "cmd": {"22": "1206"}, "freq": 1, "dbgfilter": { "to": 2021, "from": 2024 },
+  "signals": [
+    {"id": "YUKON_MISFIRES_C1_CUR", "path": "Engine", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Misfires, current, cylinder 1"}
+  ]},
+{ "hdr": "DA11", "rax": "2AF111", "pri": "14", "fcm1": true, "cmd": {"22": "1207"}, "freq": 1, "dbgfilter": { "to": 2021, "from": 2024 },
+  "signals": [
+    {"id": "YUKON_MISFIRES_C3_CUR", "path": "Engine", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Misfires, current, cylinder 3"}
+  ]},
+{ "hdr": "DA11", "rax": "2AF111", "pri": "14", "fcm1": true, "cmd": {"22": "1208"}, "freq": 1, "dbgfilter": { "to": 2021, "from": 2024 },
+  "signals": [
+    {"id": "YUKON_MISFIRES_C4_CUR", "path": "Engine", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Misfires, current, cylinder 4"}
+  ]},
+{ "hdr": "DA11", "rax": "2AF111", "pri": "14", "fcm1": true, "dbg": true, "cmd": {"22": "1470"}, "freq": 1,
+  "signals": [
+    {"id": "YUKON_EOP", "path": "Engine", "fmt": { "len": 8, "max": 1020, "mul": 400, "div": 100, "unit": "kilopascal" }, "name": "Engine oil pressure"}
+  ]},
+{ "hdr": "DA11", "rax": "2AF111", "pri": "14", "fcm1": true, "dbg": true, "cmd": {"22": "20AC"}, "freq": 1,
+  "signals": [
+    {"id": "YUKON_FUEL_INJECTION_C1", "path": "Fuel", "fmt": { "len": 16, "max": 65.535, "mul": 10, "div": 10000, "unit": "milliseconds" }, "name": "Fuel injection, cylinder 1"}
+  ]},
+{ "hdr": "DA11", "rax": "2AF111", "pri": "14", "fcm1": true, "dbg": true, "cmd": {"22": "20B3"}, "freq": 1,
+  "signals": [
+    {"id": "YUKON_FUEL_INJECTION_C8", "path": "Fuel", "fmt": { "len": 16, "max": 65.535, "mul": 10, "div": 10000, "unit": "milliseconds" }, "name": "Fuel injection, cylinder 8"}
+  ]},
+{ "hdr": "DA11", "rax": "2AF111", "pri": "14", "fcm1": true, "cmd": {"22": "20E3"}, "freq": 1, "dbgfilter": { "to": 2021, "from": 2024 },
+  "signals": [
+    {"id": "YUKON_BP_ACT", "path": "Engine", "fmt": { "len": 16, "max": 655.35, "mul": 100, "div": 10000, "unit": "kilopascal" }, "name": "Boost pressure, actual"}
+  ]},
+{ "hdr": "DA11", "rax": "2AF111", "pri": "14", "fcm1": true, "dbg": true, "cmd": {"22": "20F3"}, "freq": 1,
+  "signals": [
+    {"id": "YUKON_DPF_ENGINE_RUN_TIME_SINCE_LAST_REGEN_MIN", "path": "Engine", "fmt": { "len": 16, "max": 8738, "mul": 8, "div": 60, "unit": "minutes" }, "name": "Diesel particulate filter, engine run time since last regeneration"}
+  ]},
+{ "hdr": "DA11", "rax": "2AF111", "pri": "14", "fcm1": true, "dbg": true, "cmd": {"22": "20F5"}, "freq": 1,
+  "signals": [
+    {"id": "YUKON_DPF_CALCULATED_FLOW_RESISTANCE_KPA_L_S", "path": "Engine", "fmt": { "len": 8, "max": 2.55, "div": 100, "unit": "scalar" }, "name": "Diesel particulate filter, calculated flow resistance [kpa/(l/s)]"}
+  ]},
+{ "hdr": "DA11", "rax": "2AF111", "pri": "14", "fcm1": true, "dbg": true, "cmd": {"22": "20F7"}, "freq": 1,
+  "signals": [
+    {"id": "YUKON_DPF_AVG_DIST_BETWEEN_REGENS", "path": "Trips", "fmt": { "len": 16, "max": 65535, "unit": "kilometers" }, "name": "Diesel particulate filter, average distance between regenerations"}
+  ]},
+{ "hdr": "DA11", "rax": "2AF111", "pri": "14", "fcm1": true, "dbg": true, "cmd": {"22": "20F8"}, "freq": 1,
+  "signals": [
+    {"id": "YUKON_DPF_AVG_FLT_INLET_T_DURING_REGEN", "path": "Engine", "fmt": { "len": 16, "max": 6513.5, "min": -40, "div": 10, "add": -40, "unit": "seconds" }, "name": "Diesel particulate filter, average filter inlet temperature during regeneration"}
+  ]},
+{ "hdr": "DA11", "rax": "2AF111", "pri": "14", "fcm1": true, "dbg": true, "cmd": {"22": "20F9"}, "freq": 1,
+  "signals": [
+    {"id": "YUKON_DPF_AVG_REGEN_DURATION", "path": "Engine", "fmt": { "len": 16, "max": 2040, "mul": 2040, "div": 65535, "unit": "seconds" }, "name": "Diesel particulate filter, average regeneration duration"}
+  ]},
+{ "hdr": "DA11", "rax": "2AF111", "pri": "14", "fcm1": true, "cmd": {"22": "2345"}, "freq": 1, "dbgfilter": { "to": 2021, "from": 2024 },
+  "signals": [
+    {"id": "YUKON_EOP_ACT", "path": "Engine", "fmt": { "len": 8, "max": 1020, "mul": 4, "unit": "kilopascal" }, "name": "Engine oil pressure: actual"}
+  ]},
+{ "hdr": "DA11", "rax": "2AF111", "pri": "14", "fcm1": true, "dbg": true, "cmd": {"22": "3035"}, "freq": 1,
+  "signals": [
+    {"id": "YUKON_DPF_PRES_SNS", "path": "Engine", "fmt": { "len": 16, "max": 100, "mul": 100, "div": 65535, "unit": "percent" }, "name": "Diesel particulate filter, pressure sensor"}
+  ]},
+{ "hdr": "DA11", "rax": "2AF111", "pri": "14", "fcm1": true, "dbg": true, "cmd": {"22": "3039"}, "freq": 1,
+  "signals": [
+    {"id": "YUKON_DPF_DIST_SINCE_LAST_REGEN", "path": "Trips", "fmt": { "len": 16, "max": 65535, "unit": "kilometers" }, "name": "Diesel particulate filter, distance since last regeneration"}
+  ]},
+{ "hdr": "DA11", "rax": "2AF111", "pri": "14", "fcm1": true, "dbg": true, "cmd": {"22": "303A"}, "freq": 1,
+  "signals": [
+    {"id": "YUKON_DPF_EGT_1", "path": "Engine", "fmt": { "len": 16, "max": 6513.5, "min": -40, "div": 10, "add": -40, "unit": "celsius" }, "name": "Diesel particulate filter, exhaust gas temperature 1"}
+  ]},
+{ "hdr": "DA11", "rax": "2AF111", "pri": "14", "fcm1": true, "dbg": true, "cmd": {"22": "303B"}, "freq": 1,
+  "signals": [
+    {"id": "YUKON_DPF_EGT_2", "path": "Engine", "fmt": { "len": 16, "max": 6513.5, "min": -40, "div": 10, "add": -40, "unit": "celsius" }, "name": "Diesel particulate filter, exhaust gas temperature 2"}
+  ]},
+{ "hdr": "DA11", "rax": "2AF111", "pri": "14", "fcm1": true, "dbg": true, "cmd": {"22": "303E"}, "freq": 1,
+  "signals": [
+    {"id": "YUKON_DPF_REGEN_REASON", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Diesel particulate filter, regeneration reason"}
+  ]},
+{ "hdr": "DA11", "rax": "2AF111", "pri": "14", "fcm1": true, "dbg": true, "cmd": {"22": "304B"}, "freq": 1,
+  "signals": [
+    {"id": "YUKON_DPF_NUMBER_OF_COMPLETED_REGENS", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Diesel particulate filter, number of completed regenerations"}
+  ]},
+{ "hdr": "DA11", "rax": "2AF111", "pri": "14", "fcm1": true, "dbg": true, "cmd": {"22": "30A9"}, "freq": 1,
+  "signals": [
+    {"id": "YUKON_DPF_EGT_3", "path": "Engine", "fmt": { "len": 16, "max": 6513.5, "min": -40, "div": 10, "add": -40, "unit": "celsius" }, "name": "Diesel particulate filter, exhaust gas temperature 3"}
+  ]},
+{ "hdr": "DA11", "rax": "2AF111", "pri": "14", "fcm1": true, "dbg": true, "cmd": {"22": "30AB"}, "freq": 1,
+  "signals": [
+    {"id": "YUKON_DPF_EGT_5", "path": "Engine", "fmt": { "len": 16, "max": 6513.5, "min": -40, "div": 10, "add": -40, "unit": "celsius" }, "name": "Diesel particulate filter, exhaust gas temperature 5"}
+  ]},
+{ "hdr": "DA11", "rax": "2AF111", "pri": "14", "fcm1": true, "dbg": true, "cmd": {"22": "30AD"}, "freq": 1,
+  "signals": [
+    {"id": "YUKON_CHARGE_AIR_COOLER_T_SNS_1", "path": "Battery", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Charge air cooler temperature sensor 1"}
+  ]},
+{ "hdr": "DA11", "rax": "2AF111", "pri": "14", "fcm1": true, "dbg": true, "cmd": {"22": "30AE"}, "freq": 1,
+  "signals": [
+    {"id": "YUKON_CHARGE_AIR_COOLER_T_SNS_2", "path": "Battery", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Charge air cooler temperature sensor 2"}
+  ]},
+{ "hdr": "DA11", "rax": "2AF111", "pri": "14", "fcm1": true, "dbg": true, "cmd": {"22": "3218"}, "freq": 1,
+  "signals": [
+    {"id": "YUKON_FUEL_T", "path": "Fuel", "fmt": { "len": 8, "max": 127.5, "mul": 50, "div": 100, "unit": "celsius" }, "name": "Fuel temperature"}
+  ]},
+{ "hdr": "DA11", "rax": "2AF111", "pri": "14", "fcm1": true, "dbg": true, "cmd": {"22": "328A"}, "freq": 1,
+  "signals": [
+    {"id": "YUKON_BP_DES", "path": "Engine", "fmt": { "len": 16, "max": 655.35, "mul": 100, "div": 10000, "unit": "kilopascal" }, "name": "Boost pressure: desired"}
+  ]},
+{ "hdr": "DA11", "rax": "2AF111", "pri": "14", "fcm1": true, "dbg": true, "cmd": {"22": "3372"}, "freq": 1,
+  "signals": [
+    {"id": "YUKON_PARTICULATE_MATTER_SNS_T", "path": "Engine", "fmt": { "len": 16, "max": 6553.5, "mul": 1000, "div": 10000, "unit": "celsius" }, "name": "Particulate matter sensor temperature"}
+  ]},
+{ "hdr": "DA11", "rax": "2AF111", "pri": "14", "fcm1": true, "dbg": true, "cmd": {"22": "3375"}, "freq": 1,
+  "signals": [
+    {"id": "YUKON_DPF_REGEN_STS", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Diesel particulate filter, regeneration status"}
+  ]},
+{ "hdr": "DA11", "rax": "2AF111", "pri": "14", "fcm1": true, "dbg": true, "cmd": {"22": "34D8"}, "freq": 1,
+  "signals": [
+    {"id": "YUKON_DPF_PRES", "path": "Engine", "fmt": { "len": 16, "max": 327.67, "min": -327.68, "mul": 100, "div": 10000, "sign": true, "unit": "kilopascal" }, "name": "Diesel particulate filter, pressure"}
+  ]},
+{ "hdr": "DA11", "rax": "2AF111", "pri": "14", "fcm1": true, "dbg": true, "cmd": {"22": "34D9"}, "freq": 1,
+  "signals": [
+    {"id": "YUKON_DPF_CORRECTED_PRES", "path": "Engine", "fmt": { "len": 16, "max": 327.67, "min": -327.68, "mul": 100, "div": 10000, "sign": true, "unit": "kilopascal" }, "name": "Diesel particulate filter, corrected pressure"}
+  ]},
+{ "hdr": "DA11", "rax": "2AF111", "pri": "14", "fcm1": true, "dbg": true, "cmd": {"22": "3635"}, "freq": 1,
+  "signals": [
+    {"id": "YUKON_PARTICULATE_MATTER_SNS_SOOT_ACCUMULATION", "path": "Engine", "fmt": { "len": 16, "max": 100, "mul": 100, "div": 10000, "sign": true, "unit": "percent" }, "name": "Particulate matter sensor soot accumulation"}
+  ]},
+{ "hdr": "DA11", "rax": "2AF111", "pri": "14", "fcm1": true, "cmd": {"22": "4DC0"}, "freq": 1, "dbgfilter": { "to": 2021, "from": 2024 },
+  "signals": [
+    {"id": "YUKON_EO_LIFE_REMAINING", "path": "Engine", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Engine oil life remaining"}
+  ]},
+{ "hdr": "DA18", "rax": "2AF118", "pri": "14", "fcm1": true, "cmd": {"22": "1940"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
+  "signals": [
+    {"id": "YUKON_TFT", "path": "Transmission", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Transmission fluid temperature", "suggestedMetric": "transmissionFluidTemperature"}
+  ]},
+{ "hdr": "DA18", "rax": "2AF118", "pri": "14", "fcm1": true, "dbg": true, "cmd": {"22": "1991"}, "freq": 1,
+  "signals": [
+    {"id": "YUKON_TC_SLIP_VSS", "path": "Movement", "fmt": { "len": 16, "max": 4095.875, "min": -4096, "mul": 1250, "div": 10000, "sign": true, "unit": "rpm" }, "name": "Torque converter clutch slip speed"}
+  ]},
+{ "hdr": "DA18", "rax": "2AF118", "pri": "14", "fcm1": true, "cmd": {"22": "1B30"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
+  "signals": [
+    {"id": "YUKON_CURRENT_GEAR", "path": "Transmission", "fmt": { "len": 8, "max": 252, "min": -3, "add": -3, "unit": "scalar" }, "name": "Current gear"}
+  ]},
+{ "hdr": "DA18", "rax": "2AF118", "pri": "14", "fcm1": true, "dbg": true, "cmd": {"22": "295A"}, "freq": 1,
+  "signals": [
+    {"id": "YUKON_TF_T_FLTED", "path": "Transmission", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Transmission fluid temperature, filtered"}
+  ]},
+{ "hdr": "DA28", "rax": "2AF128", "pri": "14", "fcm1": true, "dbg": true, "cmd": {"22": "4A7A"}, "freq": 1,
+  "signals": [
+    {"id": "YUKON_FL_WHEEL_VSS", "path": "Tires", "fmt": {           "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Front left wheel speed"},
+    {"id": "YUKON_FR_WHEEL_VSS", "path": "Tires", "fmt": {"bix": 8,  "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Front right wheel speed"},
+    {"id": "YUKON_RL_WHEEL_VSS", "path": "Tires", "fmt": {"bix": 16, "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Rear left wheel speed"},
+    {"id": "YUKON_RR_WHEEL_VSS", "path": "Tires", "fmt": {"bix": 24, "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Rear right wheel speed"}
+  ]}
 ]
 }
