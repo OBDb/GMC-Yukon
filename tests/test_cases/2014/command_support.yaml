@@ -37,7 +37,7 @@ supported_commands_by_ecu:
   - 7E0.0131:CLR_DIST
   - 7E0.0146:AAT
   - 7E0.2211A1|f=-2021:YUKON_RUNTM
-  - 7E0.7E8.22000D:YUKON_VSS
+  - 7E0.7E8.22000D|f=-2021:YUKON_VSS
 unsupported_commands_by_ecu:
   "760":
   - 760.760.224051

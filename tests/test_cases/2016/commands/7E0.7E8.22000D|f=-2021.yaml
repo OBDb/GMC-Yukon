@@ -1,8 +1,8 @@
-command_id: 7E0.7E8.22000D
+command_id: 7E0.7E8.22000D|f=-2021
 test_cases:
 - expected_values:
     YUKON_VSS: 0
   response: 7E80462000D00
 - expected_values:
-    YUKON_VSS: 143
-  response: 7E80462000D8F
+    YUKON_VSS: 138
+  response: 7E80462000D8A
