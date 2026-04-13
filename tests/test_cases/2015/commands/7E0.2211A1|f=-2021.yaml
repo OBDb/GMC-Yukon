@@ -1,22 +1,22 @@
-command_id: 7E0.2211A1
+command_id: 7E0.2211A1|f=-2021
 test_cases:
 - expected_values:
-    GMC_RUNTM: 0
+    YUKON_RUNTM: 0
   response: 7E8056211A10000
 - expected_values:
-    GMC_RUNTM: 255
+    YUKON_RUNTM: 255
   response: 7E8056211A100FF
 - expected_values:
-    GMC_RUNTM: 17921
+    YUKON_RUNTM: 17921
   response: 7E8056211A14601
 - expected_values:
-    GMC_RUNTM: 92
+    YUKON_RUNTM: 92
   response: |-
     7E8064100BFFFB993
     7EA06410080000001
     7E8056211A1005C
 - expected_values:
-    GMC_RUNTM: 99
+    YUKON_RUNTM: 99
   response: |-
     7E8064100BFFFB993
     7EA06410080000001
