@@ -1,0 +1,23 @@
+command_id: DA11.2AF111.2230AE|fc=1,c=14
+test_cases:
+- expected_values:
+    YUKON_CHARGE_AIR_COOLER_T_SNS_2: 36
+  response: 142AF111046230AE4C
+- expected_values:
+    YUKON_CHARGE_AIR_COOLER_T_SNS_2: 39
+  response: 142AF111046230AE4F
+- expected_values:
+    YUKON_CHARGE_AIR_COOLER_T_SNS_2: 47
+  response: 142AF111046230AE57
+- expected_values:
+    YUKON_CHARGE_AIR_COOLER_T_SNS_2: 51
+  response: 142AF111046230AE5B
+- expected_values:
+    YUKON_CHARGE_AIR_COOLER_T_SNS_2: 52
+  response: 142AF111046230AE5C
+- expected_values:
+    YUKON_CHARGE_AIR_COOLER_T_SNS_2: 53
+  response: 142AF111046230AE5D
+- expected_values:
+    YUKON_CHARGE_AIR_COOLER_T_SNS_2: 54
+  response: 142AF111046230AE5E

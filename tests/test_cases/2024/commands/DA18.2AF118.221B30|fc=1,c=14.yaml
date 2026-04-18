@@ -1,0 +1,17 @@
+command_id: DA18.2AF118.221B30|fc=1,c=14
+test_cases:
+- expected_values:
+    YUKON_CURRENT_GEAR: -1
+  response: 142AF11804621B3002
+- expected_values:
+    YUKON_CURRENT_GEAR: 1
+  response: 142AF11804621B3004
+- expected_values:
+    YUKON_CURRENT_GEAR: 2
+  response: 142AF11804621B3005
+- expected_values:
+    YUKON_CURRENT_GEAR: 3
+  response: 142AF11804621B3006
+- expected_values:
+    YUKON_CURRENT_GEAR: 6
+  response: 142AF11804621B3009

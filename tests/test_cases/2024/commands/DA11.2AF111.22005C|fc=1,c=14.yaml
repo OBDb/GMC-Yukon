@@ -1,0 +1,8 @@
+command_id: DA11.2AF111.22005C|fc=1,c=14
+test_cases:
+- expected_values:
+    YUKON_EOT: 52
+  response: 142AF1110462005C5C
+- expected_values:
+    YUKON_EOT: 70
+  response: 142AF1110462005C6E

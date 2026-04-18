@@ -1,0 +1,20 @@
+command_id: DA11.2AF111.223372|fc=1,c=14
+test_cases:
+- expected_values:
+    YUKON_PARTICULATE_MATTER_SNS_T: 162
+  response: 142AF111056233720654
+- expected_values:
+    YUKON_PARTICULATE_MATTER_SNS_T: 178
+  response: 142AF1110562337206F4
+- expected_values:
+    YUKON_PARTICULATE_MATTER_SNS_T: 203
+  response: 142AF1110562337207EE
+- expected_values:
+    YUKON_PARTICULATE_MATTER_SNS_T: 238
+  response: 142AF11105623372094C
+- expected_values:
+    YUKON_PARTICULATE_MATTER_SNS_T: 239
+  response: 142AF111056233720956
+- expected_values:
+    YUKON_PARTICULATE_MATTER_SNS_T: 240
+  response: 142AF111056233720960
