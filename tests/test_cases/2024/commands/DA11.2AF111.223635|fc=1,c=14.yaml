@@ -1,0 +1,5 @@
+command_id: DA11.2AF111.223635|fc=1,c=14
+test_cases:
+- expected_values:
+    YUKON_PARTICULATE_MATTER_SNS_SOOT_ACCUMULATION: 0
+  response: 142AF111056236358000

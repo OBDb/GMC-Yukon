@@ -1,0 +1,11 @@
+command_id: DA11.2AF111.223218|fc=1,c=14
+test_cases:
+- expected_values:
+    YUKON_FUEL_T: 31.5
+  response: 142AF111046232183F
+- expected_values:
+    YUKON_FUEL_T: 32
+  response: 142AF1110462321840
+- expected_values:
+    YUKON_FUEL_T: 32.5
+  response: 142AF1110462321841
