@@ -1,0 +1,8 @@
+command_id: DA11.2AF111.22009D|fc=1,c=14
+test_cases:
+- expected_values:
+    YUKON_TOTAL_FUEL_CONSUMPTION_RATE: 0
+  response: 142AF1110762009D00000000
+- expected_values:
+    YUKON_TOTAL_FUEL_CONSUMPTION_RATE: 2.24
+  response: 142AF1110762009D00700075

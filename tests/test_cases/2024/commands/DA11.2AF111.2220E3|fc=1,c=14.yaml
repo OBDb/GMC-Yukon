@@ -1,0 +1,11 @@
+command_id: DA11.2AF111.2220E3|fc=1,c=14
+test_cases:
+- expected_values:
+    YUKON_BP_ACT: 0
+  response: 142AF111056220E30000
+- expected_values:
+    YUKON_BP_ACT: 5.09
+  response: 142AF111056220E301FD
+- expected_values:
+    YUKON_BP_ACT: 85.94
+  response: 142AF111056220E32192

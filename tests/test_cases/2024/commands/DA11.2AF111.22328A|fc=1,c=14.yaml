@@ -1,0 +1,14 @@
+command_id: DA11.2AF111.22328A|fc=1,c=14
+test_cases:
+- expected_values:
+    YUKON_BP_DES: 90.28
+  response: 142AF1110562328A2344
+- expected_values:
+    YUKON_BP_DES: 92.01
+  response: 142AF1110562328A23F1
+- expected_values:
+    YUKON_BP_DES: 92.18
+  response: 142AF1110562328A2402
+- expected_values:
+    YUKON_BP_DES: 155.26
+  response: 142AF1110562328A3CA6
