@@ -7,5 +7,5 @@ test_cases:
     YUKON_TC_SLIP_VSS: 191.25
   response: 142AF1180562199105FA
 - expected_values:
-    YUKON_TC_SLIP_VSS: -24.875
-  response: 142AF11805621991FF39
+    YUKON_TC_SLIP_VSS: -31.5
+  response: 142AF11805621991FF04
