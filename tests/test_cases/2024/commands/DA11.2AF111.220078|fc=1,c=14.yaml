@@ -3,8 +3,8 @@ test_cases:
 - expected_values:
     YUKON_DPF_EGT_4: -40
   response: |-
-    142AF111100C62007807085F
-    142AF11121094707DE000055
+    142AF111100C62007807042A
+    142AF11121041F03F1000055
 - expected_values:
     YUKON_DPF_EGT_4: -40
   response: |-
@@ -18,13 +18,8 @@ test_cases:
 - expected_values:
     YUKON_DPF_EGT_4: -40
   response: |-
-    142AF111100C6200780709AC
-    142AF111210A9D0B29000055
-- expected_values:
-    YUKON_DPF_EGT_4: -40
-  response: |-
     142AF111100C6200780709F9
-    142AF111210D5B0A1E000055
+    142AF111210B040BC5000055
 - expected_values:
     YUKON_DPF_EGT_4: -40
   response: |-
@@ -33,5 +28,15 @@ test_cases:
 - expected_values:
     YUKON_DPF_EGT_4: -40
   response: |-
-    142AF111100C620078070B23
-    142AF111210DAD09BD000055
+    142AF111100C620078070A89
+    142AF111210B620BF0000055
+- expected_values:
+    YUKON_DPF_EGT_4: -40
+  response: |-
+    142AF111100C620078070B4A
+    142AF111210DB408FF000055
+- expected_values:
+    YUKON_DPF_EGT_4: -40
+  response: |-
+    142AF111100C620078070F58
+    142AF111210EB00916000055
