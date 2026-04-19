@@ -1,0 +1,5 @@
+command_id: DA11.2AF111.22304B|fc=1,c=14
+test_cases:
+- expected_values:
+    YUKON_DPF_NUMBER_OF_COMPLETED_REGENS: 0
+  response: 142AF1110562304B0000
