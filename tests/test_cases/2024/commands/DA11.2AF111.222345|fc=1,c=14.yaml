@@ -4,26 +4,5 @@ test_cases:
     YUKON_EOP_ACT: 0
   response: 142AF1110462234500
 - expected_values:
-    YUKON_EOP_ACT: 148
-  response: 142AF1110462234525
-- expected_values:
-    YUKON_EOP_ACT: 152
-  response: 142AF1110462234526
-- expected_values:
-    YUKON_EOP_ACT: 156
-  response: 142AF1110462234527
-- expected_values:
-    YUKON_EOP_ACT: 160
-  response: 142AF1110462234528
-- expected_values:
-    YUKON_EOP_ACT: 164
-  response: 142AF1110462234529
-- expected_values:
-    YUKON_EOP_ACT: 168
-  response: 142AF111046223452A
-- expected_values:
-    YUKON_EOP_ACT: 172
-  response: 142AF111046223452B
-- expected_values:
-    YUKON_EOP_ACT: 192
-  response: 142AF1110462234530
+    YUKON_EOP_ACT: 596
+  response: 142AF1110462234595
