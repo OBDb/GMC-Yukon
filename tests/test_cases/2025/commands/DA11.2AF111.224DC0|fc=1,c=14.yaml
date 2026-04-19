@@ -1,0 +1,5 @@
+command_id: DA11.2AF111.224DC0|fc=1,c=14
+test_cases:
+- expected_values:
+    YUKON_EO_LIFE_REMAINING: 62.7451
+  response: 142AF11104624DC0A0

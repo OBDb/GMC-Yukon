@@ -1,0 +1,5 @@
+command_id: DA11.2AF111.221206|fc=1,c=14
+test_cases:
+- expected_values:
+    YUKON_MISFIRES_C1_CUR: 0
+  response: 142AF1110462120600

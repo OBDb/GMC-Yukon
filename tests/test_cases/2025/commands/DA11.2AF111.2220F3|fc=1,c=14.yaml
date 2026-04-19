@@ -1,0 +1,5 @@
+command_id: DA11.2AF111.2220F3|fc=1,c=14
+test_cases:
+- expected_values:
+    YUKON_DPF_ENGINE_RUN_TIME_SINCE_LAST_REGEN_MIN: 0
+  response: 142AF111056220F30000

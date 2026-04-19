@@ -1,0 +1,8 @@
+command_id: DA28.2AF128.224A7A|fc=1,c=14
+test_cases:
+- expected_values:
+    YUKON_FL_WHEEL_VSS: 3
+    YUKON_FR_WHEEL_VSS: 3
+    YUKON_RL_WHEEL_VSS: 3
+    YUKON_RR_WHEEL_VSS: 2
+  response: 142AF12807624A7A03030302

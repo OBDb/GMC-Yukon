@@ -1,0 +1,5 @@
+command_id: DA11.2AF111.223039|fc=1,c=14
+test_cases:
+- expected_values:
+    YUKON_DPF_DIST_SINCE_LAST_REGEN: 0
+  response: 142AF111056230390000
