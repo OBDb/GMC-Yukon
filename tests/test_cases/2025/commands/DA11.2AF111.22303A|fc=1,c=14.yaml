@@ -1,0 +1,5 @@
+command_id: DA11.2AF111.22303A|fc=1,c=14
+test_cases:
+- expected_values:
+    YUKON_DPF_EGT_1: -40
+  response: 142AF1110562303A0000

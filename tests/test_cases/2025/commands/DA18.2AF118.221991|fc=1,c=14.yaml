@@ -1,0 +1,5 @@
+command_id: DA18.2AF118.221991|fc=1,c=14
+test_cases:
+- expected_values:
+    YUKON_TC_SLIP_VSS: 202.75
+  response: 142AF118056219910656
