@@ -1,8 +1,8 @@
 command_id: DA11.2AF111.2230AE|fc=1,c=14
 test_cases:
 - expected_values:
-    YUKON_CHARGE_AIR_COOLER_T_SNS_2: 35
-  response: 142AF111046230AE4B
+    YUKON_CHARGE_AIR_COOLER_T_SNS_2: 18
+  response: 142AF111046230AE3A
 - expected_values:
     YUKON_CHARGE_AIR_COOLER_T_SNS_2: 57
   response: 142AF111046230AE61

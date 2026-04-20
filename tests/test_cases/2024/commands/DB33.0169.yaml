@@ -1,0 +1,18 @@
+command_id: DB33.0169
+test_cases:
+- expected_values:
+    EGR_A_ACT: 5.09804
+    EGR_A_ACT_SUP: 1
+    EGR_A_CMD: 5.09804
+    EGR_A_CMD_SUP: 1
+    EGR_A_ERR: 0
+    EGR_A_ERR_SUP: 1
+    EGR_B_ACT: 0
+    EGR_B_ACT_SUP: 1
+    EGR_B_CMD: 0
+    EGR_B_CMD_SUP: 1
+    EGR_B_ERR: 0
+    EGR_B_ERR_SUP: 1
+  response: |-
+    18DAF111100941693F0D0D80
+    18DAF1112100008055555555

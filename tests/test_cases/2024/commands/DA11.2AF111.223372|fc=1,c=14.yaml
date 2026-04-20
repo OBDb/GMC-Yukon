@@ -4,6 +4,9 @@ test_cases:
     YUKON_PARTICULATE_MATTER_SNS_T: 162
   response: 142AF111056233720654
 - expected_values:
+    YUKON_PARTICULATE_MATTER_SNS_T: 171
+  response: 142AF1110562337206AE
+- expected_values:
     YUKON_PARTICULATE_MATTER_SNS_T: 178
   response: 142AF1110562337206F4
 - expected_values:

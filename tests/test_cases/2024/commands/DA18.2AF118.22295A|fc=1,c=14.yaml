@@ -1,8 +1,8 @@
 command_id: DA18.2AF118.22295A|fc=1,c=14
 test_cases:
 - expected_values:
-    YUKON_TF_T_FLTED: 41
-  response: 142AF1180462295A51
+    YUKON_TF_T_FLTED: 30
+  response: 142AF1180462295A46
 - expected_values:
     YUKON_TF_T_FLTED: 68
   response: 142AF1180462295A6C

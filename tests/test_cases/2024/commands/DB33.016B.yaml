@@ -1,0 +1,44 @@
+command_id: DB33.016B
+test_cases:
+- expected_values:
+    EGRTA: 6
+    EGRTA_SUP: 0
+    EGRTA_WR_SUP: 1
+    EGRTB: -30
+    EGRTB_SUP: 0
+    EGRTB_WR_SUP: 0
+    EGRTC: -30
+    EGRTC_SUP: 0
+    EGRTC_WR_SUP: 1
+    EGRTD: -30
+    EGRTD_SUP: 0
+    EGRTD_WR_SUP: 0
+  response: 18DAF11107416B302E0A0A0A
+- expected_values:
+    EGRTA: 16
+    EGRTA_SUP: 0
+    EGRTA_WR_SUP: 1
+    EGRTB: -30
+    EGRTB_SUP: 0
+    EGRTB_WR_SUP: 0
+    EGRTC: -30
+    EGRTC_SUP: 0
+    EGRTC_WR_SUP: 1
+    EGRTD: -30
+    EGRTD_SUP: 0
+    EGRTD_WR_SUP: 0
+  response: 18DAF11107416B30380A0A0A
+- expected_values:
+    EGRTA: 25
+    EGRTA_SUP: 0
+    EGRTA_WR_SUP: 1
+    EGRTB: -30
+    EGRTB_SUP: 0
+    EGRTB_WR_SUP: 0
+    EGRTC: -30
+    EGRTC_SUP: 0
+    EGRTC_WR_SUP: 1
+    EGRTD: -30
+    EGRTD_SUP: 0
+    EGRTD_WR_SUP: 0
+  response: 18DAF11107416B30410A0A0A
