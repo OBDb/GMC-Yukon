@@ -1,6 +1,12 @@
 command_id: DA11.2AF111.2220F5|fc=1,c=14
 test_cases:
 - expected_values:
+    YUKON_DPF_CALCULATED_FLOW_RESISTANCE_KPA_L_S: 0.04
+  response: 142AF111046220F504
+- expected_values:
+    YUKON_DPF_CALCULATED_FLOW_RESISTANCE_KPA_L_S: 0.05
+  response: 142AF111046220F505
+- expected_values:
     YUKON_DPF_CALCULATED_FLOW_RESISTANCE_KPA_L_S: 0.08
   response: 142AF111046220F508
 - expected_values:
