@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     YUKON_DPF_NUMBER_OF_COMPLETED_REGENS: 49
   response: 142AF1110562304B0031
+- expected_values:
+    YUKON_DPF_NUMBER_OF_COMPLETED_REGENS: 50
+  response: 142AF1110562304B0032

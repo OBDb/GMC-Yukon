@@ -4,8 +4,8 @@ test_cases:
     YUKON_BP_ACT: 0
   response: 142AF111056220E30000
 - expected_values:
-    YUKON_BP_ACT: 15.35
-  response: 142AF111056220E305FF
+    YUKON_BP_ACT: 2.55
+  response: 142AF111056220E300FF
 - expected_values:
     YUKON_BP_ACT: 85.94
   response: 142AF111056220E32192
