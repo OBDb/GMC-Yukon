@@ -24,3 +24,6 @@ test_cases:
 - expected_values:
     YUKON_CURRENT_GEAR: 6
   response: 142AF11804621B3009
+- expected_values:
+    YUKON_CURRENT_GEAR: 8
+  response: 142AF11804621B300B
