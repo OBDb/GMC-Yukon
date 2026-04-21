@@ -10,5 +10,5 @@ test_cases:
     YUKON_BP_DES: 92.18
   response: 142AF1110562328A2402
 - expected_values:
-    YUKON_BP_DES: 158.5
-  response: 142AF1110562328A3DEA
+    YUKON_BP_DES: 157.44
+  response: 142AF1110562328A3D80

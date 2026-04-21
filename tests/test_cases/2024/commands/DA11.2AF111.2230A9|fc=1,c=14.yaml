@@ -10,5 +10,5 @@ test_cases:
     YUKON_DPF_EGT_3: 216
   response: 142AF111056230A90A00
 - expected_values:
-    YUKON_DPF_EGT_3: 241.6
-  response: 142AF111056230A90B00
+    YUKON_DPF_EGT_3: 387.1
+  response: 142AF111056230A910AF
