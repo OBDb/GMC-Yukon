@@ -4,5 +4,5 @@ test_cases:
     YUKON_EOT: 10
   response: 142AF1110462005C32
 - expected_values:
-    YUKON_EOT: 74
-  response: 142AF1110462005C72
+    YUKON_EOT: 117
+  response: 142AF1110462005C9D
