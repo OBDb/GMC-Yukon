@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     YUKON_TOTAL_FUEL_CONSUMPTION_RATE: 0.56
   response: 142AF1110762009D001C001C
+- expected_values:
+    YUKON_TOTAL_FUEL_CONSUMPTION_RATE: 0.8
+  response: 142AF1110762009D00280028
