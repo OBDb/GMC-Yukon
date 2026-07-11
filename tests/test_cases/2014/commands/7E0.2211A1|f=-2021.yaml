@@ -7,5 +7,5 @@ test_cases:
     YUKON_RUNTM: 253
   response: 7E8056211A100FD
 - expected_values:
-    YUKON_RUNTM: 1837
-  response: 7E8056211A1072D
+    YUKON_RUNTM: 3026
+  response: 7E8056211A10BD2
