@@ -1,0 +1,20 @@
+command_id: 7E0.2211A1|f=-2021
+test_cases:
+- expected_values:
+    YUKON_RUNTM: 651
+  response: 7E8056211A1028B
+- expected_values:
+    YUKON_RUNTM: 699
+  response: 7E8056211A102BB
+- expected_values:
+    YUKON_RUNTM: 743
+  response: 7E8056211A102E7
+- expected_values:
+    YUKON_RUNTM: 785
+  response: 7E8056211A10311
+- expected_values:
+    YUKON_RUNTM: 832
+  response: 7E8056211A10340
+- expected_values:
+    YUKON_RUNTM: 880
+  response: 7E8056211A10370
