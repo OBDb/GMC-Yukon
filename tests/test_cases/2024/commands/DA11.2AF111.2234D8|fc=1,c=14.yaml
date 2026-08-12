@@ -7,5 +7,5 @@ test_cases:
     YUKON_DPF_PRES: 5.11
   response: 142AF111056234D801FF
 - expected_values:
-    YUKON_DPF_PRES: 11.12
-  response: 142AF111056234D80458
+    YUKON_DPF_PRES: 10.48
+  response: 142AF111056234D80418

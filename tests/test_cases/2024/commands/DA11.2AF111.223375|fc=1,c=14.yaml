@@ -12,3 +12,6 @@ test_cases:
 - expected_values:
     YUKON_DPF_REGEN_STS: 2
   response: 142AF11105623375026C
+- expected_values:
+    YUKON_DPF_REGEN_STS: 3
+  response: 142AF11105623375035C
