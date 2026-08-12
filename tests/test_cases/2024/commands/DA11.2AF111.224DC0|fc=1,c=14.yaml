@@ -9,3 +9,6 @@ test_cases:
 - expected_values:
     YUKON_EO_LIFE_REMAINING: 65.09804
   response: 142AF11104624DC0A6
+- expected_values:
+    YUKON_EO_LIFE_REMAINING: 87.45098
+  response: 142AF11104624DC0DF
