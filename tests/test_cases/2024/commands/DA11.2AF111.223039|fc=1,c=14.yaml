@@ -18,3 +18,15 @@ test_cases:
 - expected_values:
     YUKON_DPF_DIST_SINCE_LAST_REGEN: 392
   response: 142AF111056230390188
+- expected_values:
+    YUKON_DPF_DIST_SINCE_LAST_REGEN: 415
+  response: 142AF11105623039019F
+- expected_values:
+    YUKON_DPF_DIST_SINCE_LAST_REGEN: 416
+  response: 142AF1110562303901A0
+- expected_values:
+    YUKON_DPF_DIST_SINCE_LAST_REGEN: 417
+  response: 142AF1110562303901A1
+- expected_values:
+    YUKON_DPF_DIST_SINCE_LAST_REGEN: 418
+  response: 142AF1110562303901A2
