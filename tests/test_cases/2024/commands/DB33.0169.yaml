@@ -16,3 +16,19 @@ test_cases:
   response: |-
     18DAF111100941693F0D0D80
     18DAF1112100008055555555
+- expected_values:
+    EGR_A_ACT: 20
+    EGR_A_ACT_SUP: 1
+    EGR_A_CMD: 20.78431
+    EGR_A_CMD_SUP: 1
+    EGR_A_ERR: -2.34375
+    EGR_A_ERR_SUP: 1
+    EGR_B_ACT: 0
+    EGR_B_ACT_SUP: 1
+    EGR_B_CMD: 0
+    EGR_B_CMD_SUP: 1
+    EGR_B_ERR: 0
+    EGR_B_ERR_SUP: 1
+  response: |-
+    18DAF111100941693F35337D
+    18DAF1112100008055555555
