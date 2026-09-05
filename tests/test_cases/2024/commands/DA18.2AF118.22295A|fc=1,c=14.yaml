@@ -4,5 +4,5 @@ test_cases:
     YUKON_TF_T_FLTED: 30
   response: 142AF1180462295A46
 - expected_values:
-    YUKON_TF_T_FLTED: 68
-  response: 142AF1180462295A6C
+    YUKON_TF_T_FLTED: 87
+  response: 142AF1180462295A7F
