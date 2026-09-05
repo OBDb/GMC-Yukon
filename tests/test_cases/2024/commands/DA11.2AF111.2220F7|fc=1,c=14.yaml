@@ -4,6 +4,9 @@ test_cases:
     YUKON_DPF_AVG_DIST_BETWEEN_REGENS: 52
   response: 142AF111056220F70034
 - expected_values:
+    YUKON_DPF_AVG_DIST_BETWEEN_REGENS: 66
+  response: 142AF111056220F70042
+- expected_values:
     YUKON_DPF_AVG_DIST_BETWEEN_REGENS: 678
   response: 142AF111056220F702A6
 - expected_values:
