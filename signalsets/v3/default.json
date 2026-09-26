@@ -1,4 +1,7 @@
-{ "commands": [
+{ "ecu": [
+    { "hdr": "7E0", "type": "engine" }
+  ],
+  "commands": [
 { "hdr": "7E0", "cmd": {"22": "11A1"}, "freq": 1, "filter": { "to": 2021 }, "dbgfilter": { "to": 2008, "years": [2010, 2011, 2012], "from": 2017 },
   "signals": [
     {"id": "YUKON_RUNTM", "path": "Clocks", "fmt": { "len": 16, "max": 65535, "unit": "seconds" }, "name": "Time since engine start"}
