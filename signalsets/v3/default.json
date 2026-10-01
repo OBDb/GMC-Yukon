@@ -1,7 +1,41 @@
 { "ecu": [
-    { "hdr": "7E0", "type": "engine" }
+    { "hdr": "241",  "rax": "641", "type": "bodyControl" },
+    { "hdr": "7E0",                "type": "engine" },
+    { "hdr": "DA40", "rax": "40",  "type": "bodyControl" }
   ],
   "commands": [
+{ "hdr": "241", "rax": "641", "dbg": true, "cmd": {"22": "4005"}, "freq": 3600,
+  "signals": [
+    {"id": "YUKON_TID_FL", "path": "Tires", "fmt": { "len": 32, "max": 4294967295, "unit": "hex" }, "name": "Front left tire sensor ID"}
+  ]},
+{ "hdr": "241", "rax": "641", "dbg": true, "cmd": {"22": "4006"}, "freq": 3600,
+  "signals": [
+    {"id": "YUKON_TID_FR", "path": "Tires", "fmt": { "len": 32, "max": 4294967295, "unit": "hex" }, "name": "Front right tire sensor ID"}
+  ]},
+{ "hdr": "241", "rax": "641", "dbg": true, "cmd": {"22": "4007"}, "freq": 3600,
+  "signals": [
+    {"id": "YUKON_TID_RR", "path": "Tires", "fmt": { "len": 32, "max": 4294967295, "unit": "hex" }, "name": "Rear right tire sensor ID"}
+  ]},
+{ "hdr": "241", "rax": "641", "dbg": true, "cmd": {"22": "4008"}, "freq": 3600,
+  "signals": [
+    {"id": "YUKON_TID_RL", "path": "Tires", "fmt": { "len": 32, "max": 4294967295, "unit": "hex" }, "name": "Rear left tire sensor ID"}
+  ]},
+{ "hdr": "241", "rax": "641", "dbg": true, "cmd": {"22": "5005"}, "freq": 15,
+  "signals": [
+    {"id": "YUKON_TP_FL", "path": "Tires", "fmt": { "len": 16, "max": 4095.9375, "div": 16, "unit": "kilopascal" }, "name": "Front left tire pressure", "suggestedMetric": "frontLeftTirePressure"}
+  ]},
+{ "hdr": "241", "rax": "641", "dbg": true, "cmd": {"22": "5006"}, "freq": 15,
+  "signals": [
+    {"id": "YUKON_TP_FR", "path": "Tires", "fmt": { "len": 16, "max": 4095.9375, "div": 16, "unit": "kilopascal" }, "name": "Front right tire pressure", "suggestedMetric": "frontRightTirePressure"}
+  ]},
+{ "hdr": "241", "rax": "641", "dbg": true, "cmd": {"22": "5007"}, "freq": 15,
+  "signals": [
+    {"id": "YUKON_TP_RR", "path": "Tires", "fmt": { "len": 16, "max": 4095.9375, "div": 16, "unit": "kilopascal" }, "name": "Rear right tire pressure", "suggestedMetric": "rearRightTirePressure"}
+  ]},
+{ "hdr": "241", "rax": "641", "dbg": true, "cmd": {"22": "5008"}, "freq": 15,
+  "signals": [
+    {"id": "YUKON_TP_RL", "path": "Tires", "fmt": { "len": 16, "max": 4095.9375, "div": 16, "unit": "kilopascal" }, "name": "Rear left tire pressure", "suggestedMetric": "rearLeftTirePressure"}
+  ]},
 { "hdr": "7E0", "cmd": {"22": "11A1"}, "freq": 1, "filter": { "to": 2021 }, "dbgfilter": { "to": 2008, "years": [2010, 2011, 2012], "from": 2017 },
   "signals": [
     {"id": "YUKON_RUNTM", "path": "Clocks", "fmt": { "len": 16, "max": 65535, "unit": "seconds" }, "name": "Time since engine start"}
@@ -212,6 +246,38 @@
     {"id": "YUKON_FR_WHEEL_VSS", "path": "Tires", "fmt": {"bix": 8,  "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Front right wheel speed"},
     {"id": "YUKON_RL_WHEEL_VSS", "path": "Tires", "fmt": {"bix": 16, "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Rear left wheel speed"},
     {"id": "YUKON_RR_WHEEL_VSS", "path": "Tires", "fmt": {"bix": 24, "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Rear right wheel speed"}
+  ]},
+{ "hdr": "DA40", "rax": "40", "dbg": true, "cmd": {"22": "4005"}, "freq": 3600,
+  "signals": [
+    {"id": "YUKON_TID_FL_DA40", "path": "Tires", "fmt": { "len": 32, "max": 4294967295, "unit": "hex" }, "name": "Front left tire sensor ID"}
+  ]},
+{ "hdr": "DA40", "rax": "40", "dbg": true, "cmd": {"22": "4006"}, "freq": 3600,
+  "signals": [
+    {"id": "YUKON_TID_FR_DA40", "path": "Tires", "fmt": { "len": 32, "max": 4294967295, "unit": "hex" }, "name": "Front right tire sensor ID"}
+  ]},
+{ "hdr": "DA40", "rax": "40", "dbg": true, "cmd": {"22": "4007"}, "freq": 3600,
+  "signals": [
+    {"id": "YUKON_TID_RR_DA40", "path": "Tires", "fmt": { "len": 32, "max": 4294967295, "unit": "hex" }, "name": "Rear right tire sensor ID"}
+  ]},
+{ "hdr": "DA40", "rax": "40", "dbg": true, "cmd": {"22": "4008"}, "freq": 3600,
+  "signals": [
+    {"id": "YUKON_TID_RL_DA40", "path": "Tires", "fmt": { "len": 32, "max": 4294967295, "unit": "hex" }, "name": "Rear left tire sensor ID"}
+  ]},
+{ "hdr": "DA40", "rax": "40", "dbg": true, "cmd": {"22": "5005"}, "freq": 15,
+  "signals": [
+    {"id": "YUKON_TP_FL_DA40", "path": "Tires", "fmt": { "len": 16, "max": 4095.9375, "div": 16, "unit": "kilopascal" }, "name": "Front left tire pressure", "suggestedMetric": "frontLeftTirePressure"}
+  ]},
+{ "hdr": "DA40", "rax": "40", "dbg": true, "cmd": {"22": "5006"}, "freq": 15,
+  "signals": [
+    {"id": "YUKON_TP_FR_DA40", "path": "Tires", "fmt": { "len": 16, "max": 4095.9375, "div": 16, "unit": "kilopascal" }, "name": "Front right tire pressure", "suggestedMetric": "frontRightTirePressure"}
+  ]},
+{ "hdr": "DA40", "rax": "40", "dbg": true, "cmd": {"22": "5007"}, "freq": 15,
+  "signals": [
+    {"id": "YUKON_TP_RR_DA40", "path": "Tires", "fmt": { "len": 16, "max": 4095.9375, "div": 16, "unit": "kilopascal" }, "name": "Rear right tire pressure", "suggestedMetric": "rearRightTirePressure"}
+  ]},
+{ "hdr": "DA40", "rax": "40", "dbg": true, "cmd": {"22": "5008"}, "freq": 15,
+  "signals": [
+    {"id": "YUKON_TP_RL_DA40", "path": "Tires", "fmt": { "len": 16, "max": 4095.9375, "div": 16, "unit": "kilopascal" }, "name": "Rear left tire pressure", "suggestedMetric": "rearLeftTirePressure"}
   ]}
 ]
 }
