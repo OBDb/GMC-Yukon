@@ -4,5 +4,5 @@ test_cases:
     YUKON_VSS: 0
   response: 7E80462000D00
 - expected_values:
-    YUKON_VSS: 138
-  response: 7E80462000D8A
+    YUKON_VSS: null
+  response: 7E80462000DFF
