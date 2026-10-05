@@ -267,11 +267,11 @@
   "signals": [
     {"id": "YUKON_TP_FL_DA40", "path": "Tires", "fmt": { "len": 16, "max": 4095.9375, "div": 16, "unit": "kilopascal" }, "name": "Front left tire pressure", "suggestedMetric": "frontLeftTirePressure"}
   ]},
-{ "hdr": "DA40", "rax": "40", "dbg": true, "cmd": {"22": "5006"}, "freq": 15,
+{ "hdr": "DA40", "rax": "40", "cmd": {"22": "5006"}, "freq": 15, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "YUKON_TP_FR_DA40", "path": "Tires", "fmt": { "len": 16, "max": 4095.9375, "div": 16, "unit": "kilopascal" }, "name": "Front right tire pressure", "suggestedMetric": "frontRightTirePressure"}
   ]},
-{ "hdr": "DA40", "rax": "40", "dbg": true, "cmd": {"22": "5007"}, "freq": 15,
+{ "hdr": "DA40", "rax": "40", "cmd": {"22": "5007"}, "freq": 15, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "YUKON_TP_RR_DA40", "path": "Tires", "fmt": { "len": 16, "max": 4095.9375, "div": 16, "unit": "kilopascal" }, "name": "Rear right tire pressure", "suggestedMetric": "rearRightTirePressure"}
   ]},
