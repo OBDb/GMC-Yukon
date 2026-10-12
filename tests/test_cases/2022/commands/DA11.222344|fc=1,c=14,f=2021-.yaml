@@ -1,0 +1,5 @@
+command_id: DA11.222344|fc=1,c=14,f=2021-
+test_cases:
+- expected_values:
+    YUKON_EOP_ABS_2: 336
+  response: 18DAF1110462234454555555

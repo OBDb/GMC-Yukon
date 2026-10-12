@@ -1,0 +1,11 @@
+command_id: DA11.22153E|fc=1,c=14,f=2021-
+test_cases:
+- expected_values:
+    YUKON_EOT_DA11_2: 30
+  response: 142AF1110462153E46
+- expected_values:
+    YUKON_EOT_DA11_2: 99
+  response: 142AF1110462153E8B
+- expected_values:
+    YUKON_EOT_DA11_2: 24
+  response: 18DAF1110462153E40

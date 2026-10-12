@@ -1,0 +1,23 @@
+command_id: DA1A.22448F|fc=1,c=14,f=2021-
+test_cases:
+- expected_values:
+    YUKON_ODO: 3735.79688
+  response: 142AF11A0762448F0003A5F3
+- expected_values:
+    YUKON_ODO: 3780
+  response: 142AF11A0762448F0003B100
+- expected_values:
+    YUKON_ODO: 8786.67188
+  response: 142AF11A0762448F000894AB
+- expected_values:
+    YUKON_ODO: 8791.95312
+  response: 142AF11A0762448F000895FD
+- expected_values:
+    YUKON_ODO: 14046.76562
+  response: 142AF11A0762448F000DB7B1
+- expected_values:
+    YUKON_ODO: 14084.29688
+  response: 142AF11A0762448F000DC113
+- expected_values:
+    YUKON_ODO: null
+  response: 142AF11A0762448F0FFFFFFF
