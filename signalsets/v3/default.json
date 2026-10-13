@@ -553,23 +553,23 @@
   "signals": [
     {"id": "YUKON_FUEL_INJECTION_C1", "path": "Fuel", "fmt": { "len": 16, "max": 65.535, "mul": 10, "div": 10000, "unit": "milliseconds" }, "name": "Fuel injection, cylinder 1"}
   ]},
-{ "hdr": "DA11", "rax": "2AF111", "pri": "14", "fcm1": true, "dbg": true, "cmd": {"22": "20AD"}, "freq": 1, "filter": { "from": 2021 },
+{ "hdr": "DA11", "rax": "2AF111", "pri": "14", "fcm1": true, "cmd": {"22": "20AD"}, "freq": 1, "filter": { "from": 2021 }, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "YUKON_FUEL_INJ_CYL_2", "path": "Fuel", "fmt": { "len": 16, "max": 6.55, "div": 10000, "unit": "milliseconds" }, "name": "Fuel injection, cylinder 2"}
   ]},
-{ "hdr": "DA11", "rax": "2AF111", "pri": "14", "fcm1": true, "dbg": true, "cmd": {"22": "20AE"}, "freq": 1, "filter": { "from": 2021 },
+{ "hdr": "DA11", "rax": "2AF111", "pri": "14", "fcm1": true, "cmd": {"22": "20AE"}, "freq": 1, "filter": { "from": 2021 }, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "YUKON_FUEL_INJ_CYL_3", "path": "Fuel", "fmt": { "len": 16, "max": 6.55, "div": 10000, "unit": "milliseconds" }, "name": "Fuel injection, cylinder 3"}
   ]},
-{ "hdr": "DA11", "rax": "2AF111", "pri": "14", "fcm1": true, "dbg": true, "cmd": {"22": "20AF"}, "freq": 1, "filter": { "from": 2021 },
+{ "hdr": "DA11", "rax": "2AF111", "pri": "14", "fcm1": true, "cmd": {"22": "20AF"}, "freq": 1, "filter": { "from": 2021 }, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "YUKON_FUEL_INJ_CYL_4", "path": "Fuel", "fmt": { "len": 16, "max": 6.55, "div": 10000, "unit": "milliseconds" }, "name": "Fuel injection, cylinder 4"}
   ]},
-{ "hdr": "DA11", "rax": "2AF111", "pri": "14", "fcm1": true, "dbg": true, "cmd": {"22": "20B0"}, "freq": 1, "filter": { "from": 2021 },
+{ "hdr": "DA11", "rax": "2AF111", "pri": "14", "fcm1": true, "cmd": {"22": "20B0"}, "freq": 1, "filter": { "from": 2021 }, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "YUKON_FUEL_INJ_CYL_5", "path": "Fuel", "fmt": { "len": 16, "max": 6.55, "div": 10000, "unit": "milliseconds" }, "name": "Fuel injection, cylinder 5"}
   ]},
-{ "hdr": "DA11", "rax": "2AF111", "pri": "14", "fcm1": true, "dbg": true, "cmd": {"22": "20B1"}, "freq": 1, "filter": { "from": 2021 },
+{ "hdr": "DA11", "rax": "2AF111", "pri": "14", "fcm1": true, "cmd": {"22": "20B1"}, "freq": 1, "filter": { "from": 2021 }, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "YUKON_FUEL_INJ_CYL_6", "path": "Fuel", "fmt": { "len": 16, "max": 6.55, "div": 10000, "unit": "milliseconds" }, "name": "Fuel injection, cylinder 6"}
   ]},
@@ -673,7 +673,7 @@
   "signals": [
     {"id": "YUKON_PARTICULATE_MATTER_SNS_SOOT_ACCUMULATION", "path": "Engine", "fmt": { "len": 16, "max": 100, "mul": 100, "div": 10000, "sign": true, "unit": "percent" }, "name": "Particulate matter sensor soot accumulation"}
   ]},
-{ "hdr": "DA11", "rax": "2AF111", "pri": "14", "fcm1": true, "dbg": true, "cmd": {"22": "37A7"}, "freq": 1, "filter": { "from": 2021 },
+{ "hdr": "DA11", "rax": "2AF111", "pri": "14", "fcm1": true, "cmd": {"22": "37A7"}, "freq": 1, "filter": { "from": 2021 }, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "YUKON_EOP_DES", "path": "Engine", "fmt": { "len": 8, "max": 1020, "mul": 4, "unit": "kilopascal" }, "name": "Engine oil pressure, desired"}
   ]},

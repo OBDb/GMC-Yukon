@@ -1,0 +1,20 @@
+command_id: DA11.2AF111.2237A7|fc=1,c=14,f=2021-
+test_cases:
+- expected_values:
+    YUKON_EOP_DES: 152
+  response: 142AF111046237A726
+- expected_values:
+    YUKON_EOP_DES: 156
+  response: 142AF111046237A727
+- expected_values:
+    YUKON_EOP_DES: 160
+  response: 142AF111046237A728
+- expected_values:
+    YUKON_EOP_DES: 164
+  response: 142AF111046237A729
+- expected_values:
+    YUKON_EOP_DES: 172
+  response: 142AF111046237A72B
+- expected_values:
+    YUKON_EOP_DES: 216
+  response: 142AF111046237A736

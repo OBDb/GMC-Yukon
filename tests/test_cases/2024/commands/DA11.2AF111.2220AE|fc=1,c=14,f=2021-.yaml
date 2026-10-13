@@ -1,0 +1,11 @@
+command_id: DA11.2AF111.2220AE|fc=1,c=14,f=2021-
+test_cases:
+- expected_values:
+    YUKON_FUEL_INJ_CYL_3: 0
+  response: 142AF111056220AE0000
+- expected_values:
+    YUKON_FUEL_INJ_CYL_3: 0.0253
+  response: 142AF111056220AE00FD
+- expected_values:
+    YUKON_FUEL_INJ_CYL_3: 0.1844
+  response: 142AF111056220AE0734
