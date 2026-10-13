@@ -1,0 +1,14 @@
+command_id: DA11.220010|fc=1,c=14,f=2021-
+test_cases:
+- expected_values:
+    YUKON_MAF_DA11: 8.98
+  response: 142AF111056200100382
+- expected_values:
+    YUKON_MAF_DA11: 35.85
+  response: 142AF111056200100E01
+- expected_values:
+    YUKON_MAF_DA11: 43.47
+  response: 142AF1110562001010FB
+- expected_values:
+    YUKON_MAF_DA11: 139.85
+  response: 142AF1110562001036A1

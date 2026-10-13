@@ -1,0 +1,5 @@
+command_id: DA11.22002F|fc=1,c=14,f=2021-
+test_cases:
+- expected_values:
+    YUKON_FLI_DA11: 24.70588
+  response: 18DAF1110462002F3F555555

@@ -1,0 +1,5 @@
+command_id: DA11.22005E|fc=1,c=14,f=2021-
+test_cases:
+- expected_values:
+    YUKON_FUEL_RATE_DA11: 3
+  response: 18DAF1110562005E003C5555
