@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.22115C|f=-2020
+test_cases:
+- expected_values:
+    YUKON_EOP_2: 18.6
+  response: 7E80462115C43
+- expected_values:
+    YUKON_EOP_2: 19.2
+  response: 7E80462115C44
+- expected_values:
+    YUKON_EOP_2: 19.8
+  response: 7E80462115C45
+- expected_values:
+    YUKON_EOP_2: 20.4
+  response: 7E80462115C46

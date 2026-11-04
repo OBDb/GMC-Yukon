@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.2211A6|f=-2020
+test_cases:
+- expected_values:
+    YUKON_KNOCK_RETARD: 0
+  response: 7E8046211A600

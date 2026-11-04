@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.220052|f=-2020
+test_cases:
+- expected_values:
+    YUKON_ETHANOL_CONTENT_FUEL: 3.92157
+  response: 7E8046200520A
+- expected_values:
+    YUKON_ETHANOL_CONTENT_FUEL: 12.94118
+  response: '7E80462005221'
+- expected_values:
+    YUKON_ETHANOL_CONTENT_FUEL: 19.60784
+  response: '7E80462005232'

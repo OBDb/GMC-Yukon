@@ -1,0 +1,26 @@
+command_id: 7E0.7E8.221145|f=-2020
+test_cases:
+- expected_values:
+    YUKON_HEATED_OXYGEN_SENS: 21
+  response: '7E80462114515'
+- expected_values:
+    YUKON_HEATED_OXYGEN_SENS: 175
+  response: 7E804621145AF
+- expected_values:
+    YUKON_HEATED_OXYGEN_SENS: 185
+  response: 7E804621145B9
+- expected_values:
+    YUKON_HEATED_OXYGEN_SENS: 190
+  response: 7E804621145BE
+- expected_values:
+    YUKON_HEATED_OXYGEN_SENS: 194
+  response: 7E804621145C2
+- expected_values:
+    YUKON_HEATED_OXYGEN_SENS: 197
+  response: 7E804621145C5
+- expected_values:
+    YUKON_HEATED_OXYGEN_SENS: 200
+  response: 7E804621145C8
+- expected_values:
+    YUKON_HEATED_OXYGEN_SENS: 201
+  response: 7E804621145C9

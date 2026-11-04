@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.221470|fc=1,f=-2020
+test_cases:
+- expected_values:
+    YUKON_EOP_DA11: 180
+  response: 7E8046214702D
+- expected_values:
+    YUKON_EOP_DA11: 184
+  response: 7E8046214702E
+- expected_values:
+    YUKON_EOP_DA11: 192
+  response: '7E80462147030'

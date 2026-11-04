@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.221154|f=-2020
+test_cases:
+- expected_values:
+    YUKON_EOT_CALC: 96
+  response: '7E80462115488'

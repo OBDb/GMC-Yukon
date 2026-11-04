@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.221141|f=-2020
+test_cases:
+- expected_values:
+    YUKON_IGN_1_V: 13.5
+  response: '7E80462114187'
+- expected_values:
+    YUKON_IGN_1_V: 14.1
+  response: 7E8046211418D
+- expected_values:
+    YUKON_IGN_1_V: 14.2
+  response: 7E8046211418E
+- expected_values:
+    YUKON_IGN_1_V: 14.3
+  response: 7E8046211418F

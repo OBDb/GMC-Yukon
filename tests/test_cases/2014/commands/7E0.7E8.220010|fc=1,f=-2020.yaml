@@ -1,0 +1,23 @@
+command_id: 7E0.7E8.220010|fc=1,f=-2020
+test_cases:
+- expected_values:
+    YUKON_MAF: 5.4
+  response: 7E805620010021C
+- expected_values:
+    YUKON_MAF: 5.52
+  response: '7E8056200100228'
+- expected_values:
+    YUKON_MAF: 5.59
+  response: 7E805620010022F
+- expected_values:
+    YUKON_MAF: 5.62
+  response: '7E8056200100232'
+- expected_values:
+    YUKON_MAF: 5.83
+  response: '7E8056200100247'
+- expected_values:
+    YUKON_MAF: 6.12
+  response: '7E8056200100264'
+- expected_values:
+    YUKON_MAF: 6.48
+  response: '7E8056200100288'
