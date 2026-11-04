@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.2211ED|f=-2020
+test_cases:
+- expected_values:
+    YUKON_MIS_CURRENT_8: 0
+  response: 7E8046211ED00

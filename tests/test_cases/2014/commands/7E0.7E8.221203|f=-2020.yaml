@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.221203|f=-2020
+test_cases:
+- expected_values:
+    YUKON_MIS_HISTORY_3: 0
+  response: '7E8056212030000'

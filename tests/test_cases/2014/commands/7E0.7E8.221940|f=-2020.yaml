@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.221940|f=-2020
+test_cases:
+- expected_values:
+    YUKON_ATF_T_VAR_1: 0
+  response: '7E80462194028'

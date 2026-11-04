@@ -1,0 +1,26 @@
+command_id: 7E0.7E8.220042|f=-2020
+test_cases:
+- expected_values:
+    YUKON_M_CTRL_MODULE_V: 14.044
+  response: 7E80562004236DC
+- expected_values:
+    YUKON_M_CTRL_MODULE_V: 14.119
+  response: '7E8056200423727'
+- expected_values:
+    YUKON_M_CTRL_MODULE_V: 14.144
+  response: '7E8056200423740'
+- expected_values:
+    YUKON_M_CTRL_MODULE_V: 14.168
+  response: '7E8056200423758'
+- expected_values:
+    YUKON_M_CTRL_MODULE_V: 14.194
+  response: '7E8056200423772'
+- expected_values:
+    YUKON_M_CTRL_MODULE_V: 14.244
+  response: 7E80562004237A4
+- expected_values:
+    YUKON_M_CTRL_MODULE_V: 14.293
+  response: 7E80562004237D5
+- expected_values:
+    YUKON_M_CTRL_MODULE_V: 14.318
+  response: 7E80562004237EE

@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.22114B|f=-2020
+test_cases:
+- expected_values:
+    YUKON_EGR_V: 0
+  response: 7E80462114B00

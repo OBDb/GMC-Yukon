@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.221207|f=-2020
+test_cases:
+- expected_values:
+    YUKON_MISFIRES_C3_CUR_7E0: 0
+  response: '7E80462120700'

@@ -1,0 +1,29 @@
+command_id: 7E0.7E8.2212C4|f=-2020
+test_cases:
+- expected_values:
+    YUKON_INJECTOR_DUTY_CYCLE_BANK_2: 1.665
+  response: 7E8056212C4006F
+- expected_values:
+    YUKON_INJECTOR_DUTY_CYCLE_BANK_2: 1.785
+  response: 7E8056212C40077
+- expected_values:
+    YUKON_INJECTOR_DUTY_CYCLE_BANK_2: 1.8
+  response: 7E8056212C40078
+- expected_values:
+    YUKON_INJECTOR_DUTY_CYCLE_BANK_2: 1.815
+  response: 7E8056212C40079
+- expected_values:
+    YUKON_INJECTOR_DUTY_CYCLE_BANK_2: 1.92
+  response: 7E8056212C40080
+- expected_values:
+    YUKON_INJECTOR_DUTY_CYCLE_BANK_2: 1.98
+  response: 7E8056212C40084
+- expected_values:
+    YUKON_INJECTOR_DUTY_CYCLE_BANK_2: 2.025
+  response: 7E8056212C40087
+- expected_values:
+    YUKON_INJECTOR_DUTY_CYCLE_BANK_2: 2.085
+  response: 7E8056212C4008B
+- expected_values:
+    YUKON_INJECTOR_DUTY_CYCLE_BANK_2: 2.28
+  response: 7E8056212C40098

@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.22002F|fc=1,f=-2020
+test_cases:
+- expected_values:
+    YUKON_FLI: 31.76471
+  response: 7E80462002F51
