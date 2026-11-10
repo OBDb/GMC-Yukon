@@ -439,7 +439,7 @@
   ]},
 { "hdr": "7E2", "rax": "7EA", "fcm1": true, "dbg": true, "cmd": {"22": "1B30"}, "freq": 0.25, "filter": { "to": 2020 },
   "signals": [
-    {"id": "YUKON_CURRENT_GEAR_7E2", "path": "Transmission", "fmt": { "len": 8, "max": 252, "min": -3, "add": -3, "unit": "scalar" }, "name": "Current gear"}
+    {"id": "YUKON_CURRENT_GEAR_7E2", "path": "Transmission", "fmt": { "len": 8, "max": 252, "min": -3, "add": -3, "unit": "scalar" }, "name": "Current gear", "suggestedMetric": "gear"}
   ]},
 { "hdr": "7E2", "rax": "7EA", "dbg": true, "cmd": {"22": "280D"}, "freq": 5, "filter": { "to": 2020 },
   "signals": [
@@ -689,9 +689,9 @@
   "signals": [
     {"id": "YUKON_TC_SLIP_VSS", "path": "Movement", "fmt": { "len": 16, "max": 4095.875, "min": -4096, "mul": 1250, "div": 10000, "sign": true, "unit": "rpm" }, "name": "Torque converter clutch slip speed"}
   ]},
-{ "hdr": "DA18", "rax": "2AF118", "pri": "14", "fcm1": true, "cmd": {"22": "1B30"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2026 },
+{ "hdr": "DA18", "rax": "2AF118", "pri": "14", "fcm1": true, "cmd": {"22": "1B30"}, "freq": 0.25, "dbgfilter": { "to": 2022, "from": 2026 },
   "signals": [
-    {"id": "YUKON_CURRENT_GEAR", "path": "Transmission", "fmt": { "len": 8, "max": 252, "min": -3, "add": -3, "unit": "scalar" }, "name": "Current gear"}
+    {"id": "YUKON_CURRENT_GEAR", "path": "Transmission", "fmt": { "len": 8, "max": 252, "min": -3, "add": -3, "unit": "scalar" }, "name": "Current gear", "suggestedMetric": "gear"}
   ]},
 { "hdr": "DA18", "rax": "2AF118", "pri": "14", "fcm1": true, "cmd": {"22": "295A"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
