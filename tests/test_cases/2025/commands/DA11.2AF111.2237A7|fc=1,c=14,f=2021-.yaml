@@ -1,0 +1,5 @@
+command_id: DA11.2AF111.2237A7|fc=1,c=14,f=2021-
+test_cases:
+- expected_values:
+    YUKON_EOP_DES: 0
+  response: 142AF111046237A700
