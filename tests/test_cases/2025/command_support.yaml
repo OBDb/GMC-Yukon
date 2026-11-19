@@ -367,3 +367,7 @@ unsupported_commands_by_ecu:
   - DACB.2227C6
   - DACB.222AF5
   - DACB.222B43
+  "DB33":
+  - DB33.010C:RPM
+  - DB33.010D:VSS
+  - DB33.0143:LOAD_ABS
