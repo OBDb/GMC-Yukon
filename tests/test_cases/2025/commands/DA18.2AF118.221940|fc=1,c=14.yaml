@@ -4,5 +4,5 @@ test_cases:
     YUKON_TFT: 29
   response: 142AF1180462194045
 - expected_values:
-    YUKON_TFT: 66
-  response: 142AF118046219406A
+    YUKON_TFT: 72
+  response: 142AF1180462194070
