@@ -1,8 +1,8 @@
 command_id: DA18.2AF118.221940|fc=1,c=14
 test_cases:
 - expected_values:
-    YUKON_TFT: 29
-  response: 142AF1180462194045
+    YUKON_TFT: 20
+  response: 142AF118046219403C
 - expected_values:
     YUKON_TFT: 72
   response: 142AF1180462194070
